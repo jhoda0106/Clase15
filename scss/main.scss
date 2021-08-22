@@ -1,0 +1,22 @@
+
+@import "../bootstrap/scss/bootstrap.scss";
+@import "_mediam";
+@import "_resetm";
+@import "_commonsm";
+@import "_typographym";
+/*Empieza Nav*/
+@import "_navm";
+/*Termina Nav*/
+
+/*comienza Header*/
+@import "_headerm";
+/*Termina Header*/
+
+/*Empieza Content*/
+@import "_contentm";
+/*Termina Content*/
+
+/*Empieza Footer*/
+@import "_footerm";
+/*Termina Footer*/
+

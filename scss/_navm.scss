@@ -1,0 +1,34 @@
+.nav__background--img{
+background: rgb(245,132,193);
+background: linear-gradient(90deg, rgba(245,132,193,1) 0%, rgba(255,175,232,1) 35%, rgba(253,242,255,1) 100%);
+  background-position: center;
+  ackground-attachment: fixed;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: $nav-link-padding-y $nav-link-padding-x;
+  font-weight: $nav-link-font-weight;
+  color: $nav-link-color;
+  text-decoration: none;
+}
+
+.third {
+  border-color: $tbc;
+  color: #fff;
+  box-shadow: 0 0 40px 40px $tbc inset, 0 0 0 0 $tbc;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  &:hover{
+  box-shadow: 0 0 10px 0 $tbc inset, 0 0 10px 4px $tbc;
+  }
+}

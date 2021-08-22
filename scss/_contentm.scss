@@ -1,0 +1,33 @@
+.contenedor{
+	&:hover {filter: blur(2px);}
+}
+
+h1, h2, h3 {
+	text-decoration: none;
+    color: #F20F88;
+}
+
+p{
+	text-align: justify;
+}
+
+
+.header {
+    background-color:$contact-bg;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 2em;
+    color:$contact-bg;
+}
+
+$colors:(1:#FFC0CB,2:#F4A6B4,3:#E78899,4:#DB6C80);
+
+@each $name-color, $bg-color in $colors{
+
+    .line-#{$name-color}{
+        background-color:$bg-color;
+    }
+}
