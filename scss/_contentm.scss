@@ -11,6 +11,11 @@ p{
 	text-align: justify;
 }
 
+.circle{border-radius : 50%;}
+
+.img-background {
+    background-image: url('../img/fondo_conten.jpg');
+}
 
 .header {
     background-color:$contact-bg;
@@ -30,4 +35,20 @@ $colors:(1:#FFC0CB,2:#F4A6B4,3:#E78899,4:#DB6C80);
     .line-#{$name-color}{
         background-color:$bg-color;
     }
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FFBDE0;
+    border-radius: 6px;
+    border: 2px solid #FF00C0;
+    
+    &:hover{
+    color: #000000;
+    background-color: #ffffff;
+  }
 }
