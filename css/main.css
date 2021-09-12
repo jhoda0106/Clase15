@@ -3083,7 +3083,9 @@ p {
   border-radius: 50%; }
 
 .img-background {
-  background-image: url("../img/fondo_conten.jpg"); }
+  background-image: url("../img/fondo_conten.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .header {
   background-color: #FFBDE0;
